@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    min-height: 100% ;
+    width: 100%;
+}
+
+nav{
+    min-height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    padding: 30px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 4px gold;
+}
+
+.button{
+    padding: 30px 20px;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
+    padding: 0 30px;
+    background: transparent;
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+
+section{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin: 0 40%;
+    
+}
+
+
+.btn2{
+    background-color: gold;
+    color: black;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0 35%;
+
+}
+
+h1{
+    text-shadow: 3px 3px 4px  yellow, 1px 5px 3px green;
+}
+
+form{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.rme{
+    text-align: center;
+}
+
+
+
